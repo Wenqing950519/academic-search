@@ -2,6 +2,8 @@
 
 **Research Evidence Engine** for Codex and Claude Code.
 
+> Renamed from `whitepaper-claim-auditor` to `academic-search` when the academic research skill was separated into its own repository.
+
 Academic Search keeps scholarly discovery, local full text, exact-locator evidence, claims, hypotheses, analyses, and executed actions in one local SQLite evidence backbone. It searches local material first, uses OpenAlex only when needed, and preserves the former Whitepaper Claim Auditor as a compatibility workflow.
 
 The governing quality rule is: **False Support Rate > Citation Count**. Related material is not automatically support; insufficient evidence remains `UNRESOLVED`.
